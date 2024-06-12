@@ -29,7 +29,7 @@ public class Contato {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + numero;
+        result = prime * result + ((nome == null) ? 0 : nome.hashCode());
         return result;
     }
 
@@ -42,8 +42,13 @@ public class Contato {
         if (getClass() != obj.getClass())
             return false;
         Contato other = (Contato) obj;
-        if (numero != other.numero)
+        if (nome == null) {
+            if (other.nome != null)
+                return false;
+        } else if (!nome.equals(other.nome))
             return false;
         return true;
-    } 
+    }
+
+    
 }
