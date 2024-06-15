@@ -1,18 +1,11 @@
-## Getting Started
+## Resumo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto com o objetivo de desenvolver e praticar conceitos e técnicas de programação orientada a objetos com Java. O projeto visa o desenvolvimento de um sistema bancário digital, com a implementação de conceitos de abstração, herança, encapsulamento e polimorfismo. Ao final se obteve um ótimo resultado de um sistema que apesar de simples, é funcional e entrega tudo aquilo do que foi proposto.
 
-## Folder Structure
+## Estrutura de pastas
 
-The workspace contains two folders by default, where:
+O projeto possui duas pastas, sendo a src a principal delas com todos os arquivos do sistema:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: para com a estrutura principal do projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Este projeto foi desenvolvido durante o Bootcamp da DIO em parceria com o Santander.
