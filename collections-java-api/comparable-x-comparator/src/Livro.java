@@ -9,6 +9,11 @@ public class Livro implements Comparable<Livro>{
         this.ano = ano;
     }
 
+    
+    /** 
+     * @param livro
+     * @return int
+     */
     public int compareTo(Livro livro){
         return titulo.compareTo(livro.titulo);
     }

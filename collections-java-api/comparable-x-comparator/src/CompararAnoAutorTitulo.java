@@ -1,6 +1,12 @@
 import java.util.Comparator;
 
 public class CompararAnoAutorTitulo implements Comparator<Livro>{
+    
+    /** 
+     * @param livro01
+     * @param livro02
+     * @return int
+     */
     @Override
     public int compare(Livro livro01, Livro livro02){
         int ano = Integer.compare(livro01.getAno(), livro02.getAno());

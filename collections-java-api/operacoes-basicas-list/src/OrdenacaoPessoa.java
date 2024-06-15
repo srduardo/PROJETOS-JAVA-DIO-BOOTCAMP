@@ -9,6 +9,12 @@ public class OrdenacaoPessoa {
         this.listaPessoas = new ArrayList<>();
     }
 
+    
+    /** 
+     * @param nome
+     * @param idade
+     * @param altura
+     */
     public void adicionarPessoa(String nome, int idade, double altura){
         listaPessoas.add(new Pessoa(nome, idade, altura));
     }

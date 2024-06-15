@@ -2,6 +2,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class GenericExemploSet {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         // Exemplo sem Generics:
         Set<Object> setSemGenerics = new HashSet<>(); // Ou Set setSemGenerics = new HashSet();

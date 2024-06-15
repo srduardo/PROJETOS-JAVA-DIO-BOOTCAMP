@@ -2,6 +2,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class GenericExemploMap {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         // Exemplo sem Generics:
         Map<Object, Object> mapSemGenerics = new HashMap<>(); // Ou Map mapSemGenerics = new HashMap();

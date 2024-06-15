@@ -8,6 +8,11 @@ public class ConjuntoConvidados {
         this.conjuntoConvidados = new HashSet<>();
     }
 
+    
+    /** 
+     * @param nome
+     * @param codigoConvite
+     */
     public void adicionarConvidado(String nome, int codigoConvite){
         conjuntoConvidados.add(new Convidado(nome, codigoConvite));
     }

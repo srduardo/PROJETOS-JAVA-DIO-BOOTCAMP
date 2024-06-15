@@ -1,9 +1,9 @@
-public class Produto {
+public class ProdutoZero {
     private String nome;
     private Double preco;
     private int quantidade;
     
-    public Produto(String nome, Double preco, int quantidade) {
+    public ProdutoZero(String nome, Double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;

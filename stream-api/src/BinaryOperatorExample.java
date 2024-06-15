@@ -3,6 +3,10 @@ import java.util.List;
 // import java.util.function.BinaryOperator;
 
 public class BinaryOperatorExample {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         // Declarando List de inteiros:
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);

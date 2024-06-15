@@ -5,6 +5,10 @@ public class Tarefa {
         this.descricao = descricao;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getDescricao() {
         return descricao;
     }

@@ -7,6 +7,10 @@ public class Evento {
         this.atracao = atracao;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getNome() {
         return nome;
     }

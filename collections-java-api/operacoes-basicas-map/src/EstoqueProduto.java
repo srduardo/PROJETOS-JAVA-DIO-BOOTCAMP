@@ -8,6 +8,13 @@ public class EstoqueProduto {
         this.estoqueProdutosMap = new HashMap<>();
     }
 
+    
+    /** 
+     * @param cod
+     * @param nome
+     * @param preco
+     * @param quantidade
+     */
     public void adicionarProduto(Long cod, String nome, double preco, int quantidade){
         estoqueProdutosMap.put(cod, new ProdutoDois(nome, preco, quantidade));
     }

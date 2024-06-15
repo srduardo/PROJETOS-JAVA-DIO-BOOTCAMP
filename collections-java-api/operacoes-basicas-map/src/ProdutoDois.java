@@ -9,6 +9,10 @@ public class ProdutoDois {
         this.quantidade = quantidade;
     }
     
+    
+    /** 
+     * @return String
+     */
     public String getNome() {
         return nome;
     }

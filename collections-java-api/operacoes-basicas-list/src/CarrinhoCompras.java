@@ -2,18 +2,24 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class CarrinhoCompras implements Comparator<String> {
-    private ArrayList<Produto> carrinhoCompras;
+    private ArrayList<ProdutoUm> carrinhoCompras;
 
     public CarrinhoCompras() {
         this.carrinhoCompras = new ArrayList<>();
     }
 
+    
+    /** 
+     * @param nome01
+     * @param nome02
+     * @return int
+     */
     public int compare(String nome01, String nome02){
         return nome01.compareTo(nome02);
     }
 
     public void adicionarItem(String nome, Double preco, int quantidade){
-        carrinhoCompras.add(new Produto(nome, preco, quantidade));
+        carrinhoCompras.add(new ProdutoUm(nome, preco, quantidade));
     }
 
     public void removerItem(String nome){
@@ -29,7 +35,7 @@ public class CarrinhoCompras implements Comparator<String> {
     public Double calcularValor(){
         double aux = 0.0;
 
-        for (Produto produto : carrinhoCompras) {
+        for (ProdutoUm produto : carrinhoCompras) {
             aux += produto.getPreco();
         }
 
@@ -37,16 +43,16 @@ public class CarrinhoCompras implements Comparator<String> {
     }
 
     public void exibirItens(){
-        for (Produto produto : carrinhoCompras) {
+        for (ProdutoUm produto : carrinhoCompras) {
             System.out.println("Nome: " + produto.getNome() + " Preço: " + produto.getPreco() + " Quantidade: " + produto.getQuantidade());
         }
     }
 
-    public ArrayList<Produto> getCarrinhoCompras() {
+    public ArrayList<ProdutoUm> getCarrinhoCompras() {
         return carrinhoCompras;
     }
 
-    public void setCarrinhoCompras(ArrayList<Produto> carrinhoCompras) {
+    public void setCarrinhoCompras(ArrayList<ProdutoUm> carrinhoCompras) {
         this.carrinhoCompras = carrinhoCompras;
     }
 }

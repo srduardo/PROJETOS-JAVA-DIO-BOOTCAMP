@@ -3,6 +3,10 @@ import java.util.List;
 // import java.util.function.Predicate;
 
 public class PredicateExample {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         // Declarando list com nomes:
         List<String> nomesLang = Arrays.asList("Python", "Java", "C", "Ruby", "Javascript", "Kotlyn");

@@ -1,5 +1,9 @@
 package Condicionais;
 public class PlanoOperadora {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         String plano = "M";
         

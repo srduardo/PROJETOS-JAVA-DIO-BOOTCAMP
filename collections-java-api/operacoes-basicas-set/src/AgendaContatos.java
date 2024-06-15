@@ -8,6 +8,11 @@ public class AgendaContatos {
         this.listaContatos = new HashSet<>();
     }
 
+    
+    /** 
+     * @param nome
+     * @param telefone
+     */
     public void adicionarContato(String nome, int telefone){
         listaContatos.add(new Contato(nome, telefone));
     }

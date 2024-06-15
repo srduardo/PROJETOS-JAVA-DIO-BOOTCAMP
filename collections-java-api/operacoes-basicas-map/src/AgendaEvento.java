@@ -10,6 +10,12 @@ public class AgendaEvento {
         this.eventosMap = new HashMap<>();
     }
 
+    
+    /** 
+     * @param data
+     * @param nome
+     * @param atracao
+     */
     public void adicionarEvento(LocalDate data, String nome, String atracao){
         eventosMap.put(data, new Evento(nome, atracao));
     }

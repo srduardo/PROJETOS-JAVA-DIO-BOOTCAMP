@@ -5,6 +5,10 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 
 public class AboutMe {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         try {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);

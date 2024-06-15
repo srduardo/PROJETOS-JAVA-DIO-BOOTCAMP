@@ -3,6 +3,10 @@ import java.util.List;
 // import java.util.function.Function;
 
 public class FunctionExample {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         // Criando list de inteiros:
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);

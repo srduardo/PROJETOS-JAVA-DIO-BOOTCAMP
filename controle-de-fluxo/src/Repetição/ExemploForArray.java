@@ -1,6 +1,10 @@
 package Repetição;
 
 public class ExemploForArray {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         String alunos[] = {"FELIPE", "JONAS", "JULIA", "MARCOS"};
 

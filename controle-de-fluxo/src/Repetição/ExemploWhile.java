@@ -3,6 +3,10 @@ package Repetição;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ExemploWhile {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         double mesada = 50.0;
         

@@ -8,6 +8,12 @@ public class ListaTarefas implements Comparator<String>{
         this.listaDeTarefas = new ArrayList<>();
     }
 
+    
+    /** 
+     * @param descricao1
+     * @param descricao2
+     * @return int
+     */
     public int compare(String descricao1, String descricao2){
         return descricao1.compareTo(descricao2);
     }

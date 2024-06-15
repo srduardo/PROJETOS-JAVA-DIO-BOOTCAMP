@@ -3,6 +3,10 @@ package Repetição;
 import java.util.Random;
 
 public class ExemploDoWhile {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("Discando...");
 

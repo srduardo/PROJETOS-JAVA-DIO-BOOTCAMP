@@ -9,6 +9,10 @@ public class AgendaContatos {
         this.agendaContatoMap = new HashMap<>();
     }
 
+    
+    /** 
+     * @return Map<String, Integer>
+     */
     public Map<String, Integer> getAgendaContatoMap() {
         return agendaContatoMap;
     }

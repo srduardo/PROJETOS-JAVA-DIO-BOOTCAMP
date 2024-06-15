@@ -7,6 +7,10 @@ public class CatalogoLivros {
         this.catalogoLivros = new ArrayList<>();
     }
 
+    
+    /** 
+     * @param livro
+     */
     public void adicionarLivro(Livro livro){
         catalogoLivros.add(livro);
     }

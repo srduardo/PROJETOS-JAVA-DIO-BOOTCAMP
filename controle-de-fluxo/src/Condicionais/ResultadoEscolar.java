@@ -1,5 +1,9 @@
 package Condicionais;
 public class ResultadoEscolar {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         int nota = 8;
 

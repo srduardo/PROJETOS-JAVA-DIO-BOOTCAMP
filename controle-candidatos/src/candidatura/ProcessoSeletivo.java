@@ -2,6 +2,10 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
 
         String[] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO"};

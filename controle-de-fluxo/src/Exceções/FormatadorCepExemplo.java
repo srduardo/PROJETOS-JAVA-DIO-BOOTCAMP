@@ -1,6 +1,10 @@
 package Exceções;
 
 public class FormatadorCepExemplo {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         try {
             String cepFormatado = formatarCep("2376504");

@@ -2,6 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GenericExemploList {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         //List sem generics:
         List<Object> listSemGenerics = new ArrayList<>(); // Ou "List listSemGenerics = new ArrayList();"

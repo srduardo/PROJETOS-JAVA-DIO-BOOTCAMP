@@ -7,6 +7,10 @@ public class Convidado {
         this.codigoConvite = codigoConvite;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getNome() {
         return nome;
     }
