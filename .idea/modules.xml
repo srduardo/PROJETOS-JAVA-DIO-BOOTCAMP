@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PROJETOS-JAVA-DIO-BOOTCAMP.iml" filepath="$PROJECT_DIR$/.idea/PROJETOS-JAVA-DIO-BOOTCAMP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections-java-api/comparable-x-comparator/comparable-x-comparator.iml" filepath="$PROJECT_DIR$/collections-java-api/comparable-x-comparator/comparable-x-comparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conta-banco/conta-banco.iml" filepath="$PROJECT_DIR$/conta-banco/conta-banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controle-candidatos/controle-candidatos.iml" filepath="$PROJECT_DIR$/controle-candidatos/controle-candidatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controle-de-fluxo/controle-de-fluxo.iml" filepath="$PROJECT_DIR$/controle-de-fluxo/controle-de-fluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-abstraindo-bootcamp-dio/desafio-abstraindo-bootcamp-dio.iml" filepath="$PROJECT_DIR$/desafio-abstraindo-bootcamp-dio/desafio-abstraindo-bootcamp-dio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-controle-fluxo/desafio-controle-fluxo.iml" filepath="$PROJECT_DIR$/desafio-controle-fluxo/desafio-controle-fluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-iphone-uml/desafio-iphone-uml.iml" filepath="$PROJECT_DIR$/desafio-iphone-uml/desafio-iphone-uml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections-java-api/generics/generics.iml" filepath="$PROJECT_DIR$/collections-java-api/generics/generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections-java-api/operacoes-basicas-list/operacoes-basicas-list.iml" filepath="$PROJECT_DIR$/collections-java-api/operacoes-basicas-list/operacoes-basicas-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections-java-api/operacoes-basicas-map/operacoes-basicas-map.iml" filepath="$PROJECT_DIR$/collections-java-api/operacoes-basicas-map/operacoes-basicas-map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections-java-api/operacoes-basicas-set/operacoes-basicas-set.iml" filepath="$PROJECT_DIR$/collections-java-api/operacoes-basicas-set/operacoes-basicas-set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projeto-banco-digital/projeto-banco-digital.iml" filepath="$PROJECT_DIR$/projeto-banco-digital/projeto-banco-digital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-api/stream-api.iml" filepath="$PROJECT_DIR$/stream-api/stream-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-api-desafios/stream-api-desafios.iml" filepath="$PROJECT_DIR$/stream-api-desafios/stream-api-desafios.iml" />
+    </modules>
+  </component>
+</project>
